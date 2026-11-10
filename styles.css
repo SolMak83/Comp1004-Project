@@ -25,3 +25,20 @@
             background-attachment: fixed;
             background-size: cover;
         }
+
+        body.light-mode {
+            background-color: white;
+            color: black;
+        }
+
+        body.dark-mode {
+            background-color: black;
+            color: white;
+            background-image: none;
+        }
+
+        body.dark-mode h1,
+        body.dark-mode p,
+        body.dark-mode a {
+            color: white;
+        }
